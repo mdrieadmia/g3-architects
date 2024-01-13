@@ -215,7 +215,7 @@ header{
 }
 /* -------- Facts Section -------- */
 #facts{
-    padding: 100px 0 160px 0;
+    padding: 100px 0;
 }
 .facts_item_container{
     display: flex;
@@ -244,4 +244,22 @@ header{
     font-size: 1.25rem;
     font-weight: 600;
     color: #727272;
+}
+/* ------- Sponsors Section----- */
+#sponsors{
+    padding-bottom: 110px ;
+}
+#sponsors .section_heading{
+    text-align: center;
+}
+#sponsors .section_heading p{
+    text-align: center;
+    margin: 30px auto;
+}
+.sponsors_img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    gap: 30px;
 }

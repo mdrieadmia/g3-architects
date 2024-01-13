@@ -8,6 +8,7 @@
     .container {
         padding: 0 50px;
     }
+    .sponsors_img,
     .facts_item_container,
     .features_row,
     #teams,
@@ -15,6 +16,7 @@
         flex-direction: column;
         gap: 30px;
     }
+    .sponsors_img,
     .features_img,
     #teams,
     .menubar {
@@ -53,6 +55,9 @@
     #facts{
         margin-top: 50px;
     }
+        .sponsors_item{
+        margin-top: 30px;
+    }
 
 }
 
@@ -60,6 +65,7 @@
     .container {
         padding: 0 20px;
     }
+    .sponsors_img,
     .facts_item_container,
     .features_row,
     #teams,
@@ -68,6 +74,7 @@
         flex-direction: column;
         gap: 30px;
     }
+    .sponsors_img,
     .features_img,
     #teams,
     .menubar,
@@ -116,5 +123,8 @@
     }
     #facts{
         margin-top: 80px;
+    }
+    .sponsors_item{
+        margin-top: 30px;
     }
 }
