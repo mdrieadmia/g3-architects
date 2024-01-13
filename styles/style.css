@@ -1,0 +1,84 @@
+/*------- Custom Font by Google ------ */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* ------ Common CSS Part ------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.new_line{
+    display: block;
+}
+.btn {
+    padding: 20px 25px;
+    background: #ff900e;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid#ff900e;
+    color: #131313;
+}
+/* -------- Header Section ------- */
+header{
+    max-width: 100%;
+    padding: 50px 0;
+    background: #ff900e1a;
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+}
+.menubar .main_menu ul{
+    display: flex;
+    gap: 40px;
+}
+.logo h4{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+.main_menu ul li a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #424242;
+}
+/* ------- Banner Section ------ */
+.banner_text{
+    max-width: 860px;
+    margin: 100px auto 50px auto;
+    text-align: center;
+}
+.banner_text h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner_text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+    line-height: 1.6rem;
+    margin: 30px 0;
+}
+.banner_img img{
+    width: 100%;
+}
