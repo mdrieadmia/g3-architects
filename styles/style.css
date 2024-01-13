@@ -145,8 +145,19 @@ header{
 .features_img{
     width: 50%;
 }
+.features_img img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 60px;
+    border-radius: 8px;
+}
 .features_text{
     padding: 40px 0;
+}
+.features_text .section_heading h2{
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
 }
 .features_items{
     display: flex;
@@ -164,7 +175,7 @@ header{
 }
 .features_item_content:hover{
     transform: scale(1.03);
-    border: 2px solid #727272;
+    border: 2px solid #7272723b;
 }
 .features_item_content h3{
     font-size: 1.25rem;
@@ -177,4 +188,28 @@ header{
     color: #727272;
     line-height: 26px;;
     margin-top: 10px;
+}
+.features_img{
+    position: relative;
+    border-radius: 8px;
+}
+.experience{
+    padding: 45px;
+    background: #ff900e;
+    border-radius: 8px;
+    position: absolute;
+    top: 80%;
+}
+.experience h3{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.experience p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
 }

@@ -1,74 +1,112 @@
 @media screen and (min-width:992px) and (max-width:1439.98px) {
-    .container{
+    .container {
         padding: 0 100px;
     }
 }
 
 @media screen and (min-width:576px) and (max-width:991.98px) {
-    .container{
+    .container {
         padding: 0 50px;
     }
+    .features_row,
     #teams,
-    .menubar{
+    .menubar {
         flex-direction: column;
         gap: 30px;
+    }
+    .features_img,
+    #teams,
+    .menubar {
         text-align: center;
     }
-    .logo h2{
+    .logo h2 {
         font-size: 2rem;
     }
-    .menubar .main_menu ul{
+
+    .menubar .main_menu ul {
         display: flex;
         gap: 15px;
     }
-    .banner_text{
+
+    .banner_text {
         margin: 50px auto 30px auto;
     }
+
     .banner_text h1,
-    .banner_text h1 span{
+    .banner_text h1 span {
         font-size: 3.5rem;
     }
-    #teams{
+
+    #teams {
         padding: 50px 0;
     }
-    .team_img img{
+    .features_text,
+    .features_img,
+    .team_img img {
         width: 100%;
     }
+    .features_img img{
+        width: 90%;
+        margin: 0;
+    }
+
 }
 
 @media screen and (max-width:575.98px) {
-    .container{
+    .container {
         padding: 0 20px;
     }
+    .features_row,
+    #teams,
     .menubar,
     .main_menu ul{
         flex-direction: column;
         gap: 30px;
+    }
+    .features_img,
+    #teams,
+    .menubar,
+    .main_menu ul{
         text-align: center;
     }
-    .logo h2{
+    .logo h2 {
         font-size: 1.8rem;
     }
-    .menubar .main_menu ul{
+
+    .menubar .main_menu ul {
         display: flex;
         gap: 15px;
     }
-    .banner_text{
+
+    .banner_text {
         margin: 50px auto 30px auto;
     }
+
     .banner_text h1,
-    .banner_text h1 span{
+    .banner_text h1 span {
         font-size: 3rem;
     }
-    #teams{
+
+    #teams {
         padding: 50px 0;
         flex-direction: column-reverse;
         text-align: center;
     }
-    .team_img{
+
+    .team_img {
         grid-template-columns: repeat(1, 1fr);
     }
-    .team_img img{
+
+    .features_text,
+    .features_img,
+    .team_img img {
         width: 100%;
+    }
+    .features_img img{
+        width: 90%;
+        margin: 0;
+    }
+    .experience h3{
+        font-size: 2.5rem;
     }
 }
