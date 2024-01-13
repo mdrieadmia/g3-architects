@@ -8,6 +8,7 @@
     .container {
         padding: 0 50px;
     }
+    .facts_item_container,
     .features_row,
     #teams,
     .menubar {
@@ -49,6 +50,9 @@
         width: 90%;
         margin: 0;
     }
+    #facts{
+        margin-top: 50px;
+    }
 
 }
 
@@ -56,6 +60,7 @@
     .container {
         padding: 0 20px;
     }
+    .facts_item_container,
     .features_row,
     #teams,
     .menubar,
@@ -108,5 +113,8 @@
     }
     .experience h3{
         font-size: 2.5rem;
+    }
+    #facts{
+        margin-top: 80px;
     }
 }
