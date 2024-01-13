@@ -1,0 +1,57 @@
+@media screen and (min-width:992px) and (max-width:1439.98px) {
+    .container{
+        padding: 0 100px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:991.98px) {
+    .container{
+        padding: 0 50px;
+    }
+    .menubar,
+    .main_menu ul{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .logo h2{
+        font-size: 2rem;
+    }
+    .menubar .main_menu ul{
+        display: flex;
+        gap: 15px;
+    }
+    .banner_text{
+        margin: 50px auto 30px auto;
+    }
+    .banner_text h1,
+    .banner_text h1 span{
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .container{
+        padding: 0 20px;
+    }
+    .menubar,
+    .main_menu ul{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .logo h2{
+        font-size: 1.8rem;
+    }
+    .menubar .main_menu ul{
+        display: flex;
+        gap: 15px;
+    }
+    .banner_text{
+        margin: 50px auto 30px auto;
+    }
+    .banner_text h1,
+    .banner_text h1 span{
+        font-size: 3rem;
+    }
+}
