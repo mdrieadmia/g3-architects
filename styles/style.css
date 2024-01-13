@@ -78,6 +78,10 @@ header{
     font-size: 1.1rem;
     font-weight: 500;
     color: #424242;
+    transition: 0.2s all linear;
+}
+.main_menu ul li a:hover{
+    color: #ff900e;
 }
 /* ------- Banner Section ------ */
 .banner_text{
