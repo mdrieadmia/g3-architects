@@ -263,3 +263,19 @@ header{
     margin-top: 70px;
     gap: 30px;
 }
+/* --------Footer Section --------- */
+footer{
+    padding-bottom: 150px;
+}
+.footer_content{
+    max-width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.footer_content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+}
