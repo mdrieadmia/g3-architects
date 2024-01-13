@@ -213,3 +213,34 @@ header{
     line-height: 40px;
     text-align: center;
 }
+/* -------- Facts Section -------- */
+#facts{
+    padding: 100px 0 160px 0;
+}
+.facts_item_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.facts_item{
+    padding: 45px 35px 60px 35px;
+    text-align: center;
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+.facts_item:hover{
+    transform: scale(1.03);
+}
+.facts_item h3{
+    font-size: 2.9rem;
+    font-weight: 600;
+    color: #424242;
+    margin: 10px 0;
+}
+.facts_item p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #727272;
+}
