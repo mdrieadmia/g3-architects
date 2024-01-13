@@ -8,8 +8,7 @@
     .container{
         padding: 0 50px;
     }
-    .menubar,
-    .main_menu ul{
+    .menubar{
         flex-direction: column;
         gap: 30px;
         text-align: center;
