@@ -8,7 +8,7 @@
     .container{
         padding: 0 50px;
     }
-    #features,
+    #teams,
     .menubar{
         flex-direction: column;
         gap: 30px;
@@ -28,10 +28,10 @@
     .banner_text h1 span{
         font-size: 3.5rem;
     }
-    #features{
+    #teams{
         padding: 50px 0;
     }
-    .feature_img img{
+    .team_img img{
         width: 100%;
     }
 }
@@ -60,15 +60,15 @@
     .banner_text h1 span{
         font-size: 3rem;
     }
-    #features{
+    #teams{
         padding: 50px 0;
         flex-direction: column-reverse;
         text-align: center;
     }
-    .feature_img{
+    .team_img{
         grid-template-columns: repeat(1, 1fr);
     }
-    .feature_img img{
+    .team_img img{
         width: 100%;
     }
 }
